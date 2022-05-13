@@ -2,7 +2,7 @@
 Build OpenWrt using GitHub Actions
 
 ## Acknowledgments
-
+- [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
 - [Microsoft Azure](https://azure.microsoft.com)
 - [GitHub Actions](https://github.com/features/actions)
 - [OpenWrt](https://github.com/openwrt/openwrt)
