@@ -48,7 +48,6 @@ jobs:
         sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
         sudo -E apt-get -qq -y update
         sudo -E apt-get -qq -y install $(curl -fsSL https://raw.githubusercontent.com/alienven/Actions-OpenWrt/master/files/depends-ubuntu-2004)
-        sudo -E apt-get -qq -y autoremove --purge
         sudo -E apt-get -qq clean
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /workdir
