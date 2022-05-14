@@ -49,6 +49,7 @@ jobs:
         sudo -E apt -qq -y update
         sudo -E apt -qq -y full-upgrade
         sudo -E apt -qq -y install $(curl -fsSL https://raw.githubusercontent.com/alienven/Actions-OpenWrt/master/files/depends-ubuntu-2004)
+        sudo -E apt -qq -y autoremove --purge
         sudo -E apt -qq clean
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /workdir
